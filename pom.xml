@@ -37,11 +37,7 @@
                 <version>2.2.0</version>
                 <configuration>
                     <to>
-                        <image>sureshkumarkarnan/srmconnect-ci-cd-process</image>
-                        <tags>
-                            <tag>${project.version}</tag>
-                            <tag>latest</tag>
-                        </tags>
+                        
                     </to>
                 </configuration>
             </plugin>
