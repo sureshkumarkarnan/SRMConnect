@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.ResponseStatus;
 
 @RestController
-@RequestMapping(value="api/users/{userId}/tasks")
+@RequestMapping(value="/api/users/{userId}/tasks")
 public class TaskServiceController {
     @Autowired
     private TaskService taskservice;
